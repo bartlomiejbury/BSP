@@ -1,0 +1,78 @@
+../Bsp/Src/IMU/BMI160.cpp:8:1:BMI160::BMI160(uint16_t, I2C_Callbacks*)	1
+../Bsp/Src/IMU/BMI160.cpp:13:5:int BMI160::init(BMI160_Config*)	3
+../Bsp/Src/IMU/BMI160.cpp:39:9:uint8_t BMI160::readChipID()	1
+../Bsp/Src/IMU/BMI160.cpp:45:5:int BMI160::softReset()	1
+../Bsp/Src/IMU/BMI160.cpp:49:5:int BMI160::powerUpAccelerometer()	3
+../Bsp/Src/IMU/BMI160.cpp:64:5:int BMI160::powerUpGyroscope()	3
+../Bsp/Src/IMU/BMI160.cpp:79:9:uint8_t BMI160::checkSensorID()	4
+../Bsp/Src/IMU/BMI160.cpp:95:5:int BMI160::readGyro(int16_t*, int16_t*, int16_t*)	1
+../Bsp/Src/IMU/BMI160.cpp:109:15:GyroAccelData BMI160::scaledAccelData()	5
+../Bsp/Src/IMU/BMI160.cpp:139:16:AnglePeachData BMI160::getAccelerometerAngles()	1
+../Bsp/Src/IMU/BMI160.cpp:151:15:GyroAccelData BMI160::scaledGyroData()	6
+../Bsp/Src/IMU/BMI160.cpp:186:5:int BMI160::readTemperature(int16_t*)	2
+../Bsp/Src/IMU/BMI160.cpp:199:7:float BMI160::scaledTemperature()	2
+../Bsp/Src/IMU/BMI160.cpp:212:5:int BMI160::readAccelerometer(int16_t*, int16_t*, int16_t*)	1
+../Bsp/Src/IMU/BMI160.cpp:224:5:int BMI160::readMotion6(int16_t*, int16_t*, int16_t*, int16_t*, int16_t*, int16_t*)	1
+../Bsp/Src/IMU/BMI160.cpp:239:16:BMI160GyroRate BMI160::getGyroRate()	1
+../Bsp/Src/IMU/BMI160.cpp:243:5:int BMI160::setGyroRate(BMI160GyroRate)	1
+../Bsp/Src/IMU/BMI160.cpp:247:17:BMI160AccelRate BMI160::getAccelRate()	1
+../Bsp/Src/IMU/BMI160.cpp:251:5:int BMI160::setAccelRate(BMI160AccelRate)	1
+../Bsp/Src/IMU/BMI160.cpp:255:16:BMI160DLPFMode BMI160::getGyroDLPFMode()	1
+../Bsp/Src/IMU/BMI160.cpp:259:5:int BMI160::setGyroDLPFMode(BMI160DLPFMode)	1
+../Bsp/Src/IMU/BMI160.cpp:263:16:BMI160DLPFMode BMI160::getAccelDLPFMode()	1
+../Bsp/Src/IMU/BMI160.cpp:267:5:int BMI160::setAccelDLPFMode(BMI160DLPFMode)	1
+../Bsp/Src/IMU/BMI160.cpp:271:17:BMI160GyroRange BMI160::getFullScaleGyroRange()	1
+../Bsp/Src/IMU/BMI160.cpp:275:5:int BMI160::setFullScaleGyroRange(BMI160GyroRange)	1
+../Bsp/Src/IMU/BMI160.cpp:280:18:BMI160AccelRange BMI160::getFullScaleAccelRange()	1
+../Bsp/Src/IMU/BMI160.cpp:284:5:int BMI160::setFullScaleAccelRange(BMI160AccelRange)	1
+../Bsp/Src/IMU/BMI160.cpp:289:9:uint8_t BMI160::getAccelOffsetEnabled()	1
+../Bsp/Src/IMU/BMI160.cpp:293:5:int BMI160::setAccelOffsetEnabled(uint8_t)	2
+../Bsp/Src/IMU/BMI160.cpp:297:5:int BMI160::autoCalibrateXAccelOffset(int)	5
+../Bsp/Src/IMU/BMI160.cpp:313:5:int BMI160::autoCalibrateYAccelOffset(int)	5
+../Bsp/Src/IMU/BMI160.cpp:329:5:int BMI160::autoCalibrateZAccelOffset(int)	5
+../Bsp/Src/IMU/BMI160.cpp:345:8:int8_t BMI160::getXAccelOffset()	1
+../Bsp/Src/IMU/BMI160.cpp:351:5:int BMI160::setXAccelOffset(int8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:355:8:int8_t BMI160::getYAccelOffset()	1
+../Bsp/Src/IMU/BMI160.cpp:361:5:int BMI160::setYAccelOffset(int8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:365:8:int8_t BMI160::getZAccelOffset()	1
+../Bsp/Src/IMU/BMI160.cpp:371:5:int BMI160::setZAccelOffset(int8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:375:9:uint8_t BMI160::getGyroOffsetEnabled()	1
+../Bsp/Src/IMU/BMI160.cpp:379:5:int BMI160::setGyroOffsetEnabled(uint8_t)	2
+../Bsp/Src/IMU/BMI160.cpp:383:5:int BMI160::autoCalibrateGyroOffset()	2
+../Bsp/Src/IMU/BMI160.cpp:395:9:int16_t BMI160::getXGyroOffset()	2
+../Bsp/Src/IMU/BMI160.cpp:404:5:int BMI160::setXGyroOffset(int16_t)	3
+../Bsp/Src/IMU/BMI160.cpp:414:5:int BMI160::setYGyroOffset(int16_t)	3
+../Bsp/Src/IMU/BMI160.cpp:424:9:int16_t BMI160::getYGyroOffset()	2
+../Bsp/Src/IMU/BMI160.cpp:433:9:int16_t BMI160::getZGyroOffset()	2
+../Bsp/Src/IMU/BMI160.cpp:442:5:int BMI160::setZGyroOffset(int16_t)	3
+../Bsp/Src/IMU/BMI160.cpp:452:9:uint8_t BMI160::getFreefallDetectionThreshold()	1
+../Bsp/Src/IMU/BMI160.cpp:458:5:int BMI160::setFreefallDetectionThreshold(uint8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:462:9:uint8_t BMI160::getFreefallDetectionDuration()	1
+../Bsp/Src/IMU/BMI160.cpp:468:5:int BMI160::setFreefallDetectionDuration(uint8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:472:9:uint8_t BMI160::getShockDetectionThreshold()	1
+../Bsp/Src/IMU/BMI160.cpp:478:5:int BMI160::setShockDetectionThreshold(uint8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:482:9:uint8_t BMI160::getShockDetectionDuration()	1
+../Bsp/Src/IMU/BMI160.cpp:488:5:int BMI160::setShockDetectionDuration(uint8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:492:9:uint8_t BMI160::getStepDetectionMode()	7
+../Bsp/Src/IMU/BMI160.cpp:510:5:int BMI160::setStepDetectionMode(BMI160StepMode)	5
+../Bsp/Src/IMU/BMI160.cpp:538:9:uint8_t BMI160::getStepCountEnabled()	1
+../Bsp/Src/IMU/BMI160.cpp:542:5:int BMI160::setStepCountEnabled(uint8_t)	2
+../Bsp/Src/IMU/BMI160.cpp:546:10:uint16_t BMI160::getStepCount()	1
+../Bsp/Src/IMU/BMI160.cpp:552:5:int BMI160::resetStepCount()	1
+../Bsp/Src/IMU/BMI160.cpp:556:9:uint8_t BMI160::getMotionDetectionThreshold()	1
+../Bsp/Src/IMU/BMI160.cpp:562:5:int BMI160::setMotionDetectionThreshold(uint8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:566:9:uint8_t BMI160::getMotionDetectionDuration()	1
+../Bsp/Src/IMU/BMI160.cpp:570:5:int BMI160::setMotionDetectionDuration(uint8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:574:9:uint8_t BMI160::getZeroMotionDetectionThreshold()	1
+../Bsp/Src/IMU/BMI160.cpp:580:5:int BMI160::setZeroMotionDetectionThreshold(uint8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:584:9:uint8_t BMI160::getZeroMotionDetectionDuration()	1
+../Bsp/Src/IMU/BMI160.cpp:588:5:int BMI160::setZeroMotionDetectionDuration(uint8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:592:9:uint8_t BMI160::getTapDetectionThreshold()	1
+../Bsp/Src/IMU/BMI160.cpp:596:5:int BMI160::setTapDetectionThreshold(uint8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:600:9:uint8_t BMI160::getTapShockDuration()	1
+../Bsp/Src/IMU/BMI160.cpp:604:5:int BMI160::writeRegisterBits(uint8_t, uint8_t, unsigned int, unsigned int)	2
+../Bsp/Src/IMU/BMI160.cpp:622:9:uint8_t BMI160::readRegBits(uint8_t, unsigned int, unsigned int)	2
+../Bsp/Src/IMU/BMI160.cpp:637:5:int BMI160::writeRegister(uint8_t, uint8_t)	1
+../Bsp/Src/IMU/BMI160.cpp:645:5:int BMI160::readRegister(uint8_t, uint8_t, uint8_t*)	1
+C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/cmath:475:5:constexpr typename __gnu_cxx::__enable_if<std::__is_integer<_Tp>::__value, double>::__type std::sqrt(_Tp) [with _Tp = long int]	1
+C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/cmath:155:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::atan2(_Tp, _Up) [with _Tp = short int; _Up = double]	1

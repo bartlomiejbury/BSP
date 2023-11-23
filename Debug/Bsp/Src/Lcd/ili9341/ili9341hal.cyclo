@@ -1,0 +1,11 @@
+../Bsp/Src/Lcd/ili9341/ili9341hal.c:14:6:LCD_IO_Init	1
+../Bsp/Src/Lcd/ili9341/ili9341hal.c:19:6:LCD_IO_WriteReg	1
+../Bsp/Src/Lcd/ili9341/ili9341hal.c:26:9:LCD_IO_ReadData	1
+../Bsp/Src/Lcd/ili9341/ili9341hal.c:35:10:LCD_IO_ReadData16	1
+../Bsp/Src/Lcd/ili9341/ili9341hal.c:43:6:LCD_IO_WriteData16	1
+../Bsp/Src/Lcd/ili9341/ili9341hal.c:50:6:LCD_IO_WriteData	1
+../Bsp/Src/Lcd/ili9341/ili9341hal.c:57:6:LCD_IO_WriteDataMultiple	2
+../Bsp/Src/Lcd/ili9341/ili9341hal.c:64:6:LCD_IO_ReadDataMultiple	2
+../Bsp/Src/Lcd/ili9341/ili9341hal.c:72:6:LCD_IO_WriteDataMultiple16	2
+../Bsp/Src/Lcd/ili9341/ili9341hal.c:79:6:LCD_IO_ReadDataMultiple16	2
+../Bsp/Src/Lcd/ili9341/ili9341hal.c:87:6:LCD_Delay	1

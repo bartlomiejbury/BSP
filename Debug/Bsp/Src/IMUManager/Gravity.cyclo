@@ -1,0 +1,72 @@
+../Bsp/Src/IMUManager/Gravity.cpp:14:19:HAL_StatusTypeDef BMI160_Initialize()	7
+../Bsp/Src/IMUManager/Gravity.cpp:40:9:uint8_t BMI160_ReadChipID()	2
+../Bsp/Src/IMUManager/Gravity.cpp:53:19:HAL_StatusTypeDef BMI160_PerformSoftReset()	1
+../Bsp/Src/IMUManager/Gravity.cpp:59:19:HAL_StatusTypeDef BMI160_PowerUpAccelerometer()	3
+../Bsp/Src/IMUManager/Gravity.cpp:78:19:HAL_StatusTypeDef BMI160_PowerUpGyroscope()	3
+../Bsp/Src/IMUManager/Gravity.cpp:97:9:uint8_t BMI160_CheckSensorID()	4
+../Bsp/Src/IMUManager/Gravity.cpp:113:19:HAL_StatusTypeDef BMI160_ReadGyro(int16_t*, int16_t*, int16_t*)	1
+../Bsp/Src/IMUManager/Gravity.cpp:127:7:float BMI160_ScaledData(int16_t, BMI160GyroRange)	6
+../Bsp/Src/IMUManager/Gravity.cpp:149:9:int16_t BMI160_GetTemperature()	2
+../Bsp/Src/IMUManager/Gravity.cpp:159:7:float BMI160_ConvertRawTemp(int16_t)	2
+../Bsp/Src/IMUManager/Gravity.cpp:169:19:HAL_StatusTypeDef BMI160Class_GetAcceleration(int16_t*, int16_t*, int16_t*)	1
+../Bsp/Src/IMUManager/Gravity.cpp:181:19:HAL_StatusTypeDef BMI160Class_GetMotion6(int16_t*, int16_t*, int16_t*, int16_t*, int16_t*, int16_t*)	1
+../Bsp/Src/IMUManager/Gravity.cpp:196:16:BMI160GyroRate BMI160_GetGyroRate()	1
+../Bsp/Src/IMUManager/Gravity.cpp:200:19:HAL_StatusTypeDef BMI160_SetGyroRate(BMI160GyroRate)	1
+../Bsp/Src/IMUManager/Gravity.cpp:204:17:BMI160AccelRate BMI160_GetAccelRate()	1
+../Bsp/Src/IMUManager/Gravity.cpp:208:19:HAL_StatusTypeDef BMI160_SetAccelRate(BMI160AccelRate)	1
+../Bsp/Src/IMUManager/Gravity.cpp:212:16:BMI160DLPFMode BMI160_GetGyroDLPFMode()	1
+../Bsp/Src/IMUManager/Gravity.cpp:216:19:HAL_StatusTypeDef BMI160_SetGyroDLPFMode(BMI160DLPFMode)	1
+../Bsp/Src/IMUManager/Gravity.cpp:220:16:BMI160DLPFMode BMI160_GetAccelDLPFMode()	1
+../Bsp/Src/IMUManager/Gravity.cpp:224:19:HAL_StatusTypeDef BMI160_SetAccelDLPFMode(BMI160DLPFMode)	1
+../Bsp/Src/IMUManager/Gravity.cpp:228:17:BMI160GyroRange BMI160_GetFullScaleGyroRange()	1
+../Bsp/Src/IMUManager/Gravity.cpp:232:19:HAL_StatusTypeDef BMI160_SetFullScaleGyroRange(BMI160GyroRange)	1
+../Bsp/Src/IMUManager/Gravity.cpp:236:18:BMI160AccelRange BMI160_GetFullScaleAccelRange()	1
+../Bsp/Src/IMUManager/Gravity.cpp:240:19:HAL_StatusTypeDef BMI160_SetFullScaleAccelRange(BMI160AccelRange)	1
+../Bsp/Src/IMUManager/Gravity.cpp:244:9:uint8_t BMI160_GetAccelOffsetEnabled()	1
+../Bsp/Src/IMUManager/Gravity.cpp:248:19:HAL_StatusTypeDef BMI160_SetAccelOffsetEnabled(uint8_t)	2
+../Bsp/Src/IMUManager/Gravity.cpp:252:19:HAL_StatusTypeDef BMI160_AutoCalibrateXAccelOffset(int)	5
+../Bsp/Src/IMUManager/Gravity.cpp:270:19:HAL_StatusTypeDef BMI160_AutoCalibrateYAccelOffset(int)	5
+../Bsp/Src/IMUManager/Gravity.cpp:287:19:HAL_StatusTypeDef BMI160_AutoCalibrateZAccelOffset(int)	5
+../Bsp/Src/IMUManager/Gravity.cpp:304:8:int8_t BMI160_GetXAccelOffset()	2
+../Bsp/Src/IMUManager/Gravity.cpp:314:19:HAL_StatusTypeDef BMI160_SetXAccelOffset(int8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:322:8:int8_t BMI160_GetYAccelOffset()	2
+../Bsp/Src/IMUManager/Gravity.cpp:332:19:HAL_StatusTypeDef BMI160_SetYAccelOffset(int8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:338:8:int8_t BMI160_GetZAccelOffset()	2
+../Bsp/Src/IMUManager/Gravity.cpp:348:19:HAL_StatusTypeDef BMI160_SetZAccelOffset(int8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:354:9:uint8_t BMI160_GetGyroOffsetEnabled()	1
+../Bsp/Src/IMUManager/Gravity.cpp:358:19:HAL_StatusTypeDef BMI160_SetGyroOffsetEnabled(uint8_t)	2
+../Bsp/Src/IMUManager/Gravity.cpp:362:19:HAL_StatusTypeDef BMI160_AutoCalibrateGyroOffset()	2
+../Bsp/Src/IMUManager/Gravity.cpp:375:9:int16_t BMI160_GetXGyroOffset()	3
+../Bsp/Src/IMUManager/Gravity.cpp:389:19:HAL_StatusTypeDef BMI160_SetXGyroOffset(int16_t)	3
+../Bsp/Src/IMUManager/Gravity.cpp:402:9:int16_t BMI160_GetYGyroOffset()	3
+../Bsp/Src/IMUManager/Gravity.cpp:415:9:int16_t BMI160_GetZGyroOffset()	3
+../Bsp/Src/IMUManager/Gravity.cpp:429:19:HAL_StatusTypeDef BMI160_SetZGyroOffset(int16_t)	3
+../Bsp/Src/IMUManager/Gravity.cpp:443:9:uint8_t BMI160_GetFreefallDetectionThreshold()	2
+../Bsp/Src/IMUManager/Gravity.cpp:453:19:HAL_StatusTypeDef BMI160_SetFreefallDetectionThreshold(uint8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:458:9:uint8_t BMI160_GetFreefallDetectionDuration()	2
+../Bsp/Src/IMUManager/Gravity.cpp:468:19:HAL_StatusTypeDef BMI160_SetFreefallDetectionDuration(uint8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:473:9:uint8_t BMI160_GetShockDetectionThreshold()	2
+../Bsp/Src/IMUManager/Gravity.cpp:483:19:HAL_StatusTypeDef BMI160_SetShockDetectionThreshold(uint8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:488:9:uint8_t BMI160_GetShockDetectionDuration()	2
+../Bsp/Src/IMUManager/Gravity.cpp:498:19:HAL_StatusTypeDef BMI160_SetShockDetectionDuration(uint8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:503:9:uint8_t BMI160_GetStepDetectionMode()	7
+../Bsp/Src/IMUManager/Gravity.cpp:528:19:HAL_StatusTypeDef BMI160_SetStepDetectionMode(BMI160StepMode)	5
+../Bsp/Src/IMUManager/Gravity.cpp:556:9:uint8_t BMI160_GetStepCountEnabled()	1
+../Bsp/Src/IMUManager/Gravity.cpp:560:19:HAL_StatusTypeDef BMI160_SetStepCountEnabled(uint8_t)	2
+../Bsp/Src/IMUManager/Gravity.cpp:564:10:uint16_t BMI160_GetStepCount()	1
+../Bsp/Src/IMUManager/Gravity.cpp:572:19:HAL_StatusTypeDef BMI160Class_ResetStepCount()	1
+../Bsp/Src/IMUManager/Gravity.cpp:577:19:HAL_StatusTypeDef BMI160_GetMotionDetectionThreshold()	1
+../Bsp/Src/IMUManager/Gravity.cpp:583:19:HAL_StatusTypeDef BMI160_SetMotionDetectionThreshold(uint8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:587:9:uint8_t BMI160_GetMotionDetectionDuration()	1
+../Bsp/Src/IMUManager/Gravity.cpp:591:19:HAL_StatusTypeDef BMI160_SetMotionDetectionDuration(uint8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:595:9:uint8_t BMI160_GetZeroMotionDetectionThreshold()	2
+../Bsp/Src/IMUManager/Gravity.cpp:605:19:HAL_StatusTypeDef BMI160_SetZeroMotionDetectionThreshold(uint8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:609:9:uint8_t BMI160Class_GetZeroMotionDetectionDuration()	1
+../Bsp/Src/IMUManager/Gravity.cpp:613:19:HAL_StatusTypeDef BMI160_SetZeroMotionDetectionDuration(uint8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:617:9:uint8_t BMI160_GetTapDetectionThreshold()	1
+../Bsp/Src/IMUManager/Gravity.cpp:621:19:HAL_StatusTypeDef BMI160_SetTapDetectionThreshold(uint8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:625:9:uint8_t BMI160_GetTapShockDuration()	1
+../Bsp/Src/IMUManager/Gravity.cpp:629:26:HAL_StatusTypeDef BMI160_WriteRegisterBits(uint8_t, uint8_t, unsigned int, unsigned int)	2
+../Bsp/Src/IMUManager/Gravity.cpp:649:16:uint8_t BMI160_ReadRegBits(uint8_t, unsigned int, unsigned int)	2
+../Bsp/Src/IMUManager/Gravity.cpp:666:26:HAL_StatusTypeDef BMI160_WriteRegister(uint8_t, uint8_t)	1
+../Bsp/Src/IMUManager/Gravity.cpp:678:26:HAL_StatusTypeDef BMI160_ReadRegister(uint8_t, uint8_t, uint8_t*)	1

@@ -1,0 +1,7 @@
+../Bsp/Src/OS/os.cpp:7:6:void OS_Init()	8	static
+../Bsp/Src/OS/os.cpp:14:6:void TIMER_Start(ITimer*)	16	static
+../Bsp/Src/OS/os.cpp:19:13:bool isTimeout(ITimer*, uint32_t)	24	static
+../Bsp/Src/OS/os.cpp:30:13:void TIMER_Process(ITimer*)	24	static
+../Bsp/Src/OS/os.cpp:44:6:void OS_Process()	8	static
+../Bsp/Src/OS/os.cpp:50:10:uint32_t OS_GetTime()	8	static
+../Bsp/Src/OS/os.cpp:54:9:ITimer* OS_CreateOneShotTimer(uint32_t, void (*)(void*), void*)	24	static
